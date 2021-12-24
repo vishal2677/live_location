@@ -1,0 +1,7 @@
+services:
+  logger.channel.live_location:
+    parent: logger.channel_base
+    arguments: ['live_location']
+  live_location.api:
+    class: Drupal\live_location\Services\LiveLocationService
+    arguments: ['@service_container']

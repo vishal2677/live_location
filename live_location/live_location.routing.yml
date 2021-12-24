@@ -1,0 +1,9 @@
+live_location.location.config:
+  path: '/admin/configuration/live/location'
+  defaults:
+    _form: 'Drupal\live_location\Form\LiveLocationSettingsForm'
+    _title: 'Configure Live Location'
+  options:
+    no_cache: TRUE
+  requirements:
+    _permission: 'access content'

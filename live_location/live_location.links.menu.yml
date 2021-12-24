@@ -1,0 +1,6 @@
+live_location.location.config:
+  title: 'Live Location settings'
+  parent: system.admin_config
+  description: 'Configure Live Location integration.'
+  weight: 10
+  route_name: live_location.location.config

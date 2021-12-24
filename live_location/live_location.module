@@ -1,0 +1,21 @@
+<?php
+
+/**
+ * @file
+ * Contains live_location.module.
+ */
+
+/**
+ * Implements hook_theme().
+ */
+function live_location_theme() {
+  return [
+    'live_location_block' => [
+      'variables' => [
+        'country' => NULL,
+        'city' => NULL,
+        'dateTime' => NULL,
+      ],
+    ],
+  ];
+}

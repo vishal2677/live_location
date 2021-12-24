@@ -1,0 +1,5 @@
+name: 'Live Location'
+type: module
+description: 'Fetch Live Location'
+package: 'Custom'
+core_version_requirement: ^8.9 || ^9
